@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Inicio</title>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="fonts/font-awesome.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/camera.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+      <script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+    });
+</script>
+<script>
+    $(window).load(function() {
+        $(function() {
+            $('#foo2').carouFredSel({
+				auto: false,
+				responsive: true,
+				width: '100%',
+				scroll: 1,
+                prev: '#prev2',
+				next: '#next2',
+				items: {
+					height: 'auto',
+					width:300,
+					visible: {
+						min: 1,
+						max: 4
+					}
+				},
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		});  	 				
+      });
+</script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+      <script src="js/jquery.mobile.customized.min.js"></script>
+      <script src="js/device.min.js"></script>
+      <script src="js/wow/wow.js"></script>
+      <script>
+        $(document).ready(function () {       
+          if ($('html').hasClass('desktop')) {
+            new WOW().init();
+          }   
+        });
+    </script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+    <div id="ie6-alert" style="width: 100%; text-align:center;">
+    <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0" usemap="#Map" longdesc="http://die6.frontcube.com" />
+      <map name="Map" id="Map"><area shape="rect" coords="496,201,604,329" href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank" alt="Download Interent Explorer" /><area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank" alt="Download Apple Safari" /><area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank" alt="Download Opera" /><area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank" alt="Download Firefox" />
+        <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank" alt="Download Google Chrome" />
+      </map>
+  </div>
+  <![endif]-->
+</head>
+<body>
+<!--header-->
+<header id="stuck_container" class="clearfix indent">  
+    <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+    <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
+        <ul class="nav sf-menu clearfix">
+            <li class="active sub-menu"><a href="index.html">Inicio</a><span></span>
+                <ul class="submenu">
+    				<li><a href="#">Categorias</a><span class="fa fa-angle-right"></span>
+                        <ul class="submenu">
+                            <li><a href="#">Futbol</a></li>
+                            <li><a href="#">Piqui</a></li>
+                            <li><a href="#">Futsal</a></li>
+                        </ul> 
+                    </li>
+    				<li><a href="#">Novedades</a></li>
+                    <li><a href="#">Mas vistos</a></li>
+                    <li><a href="#">Deporte local</a></li>
+                    <li><a href="#">Internacional</a></li>
+    			</ul>
+            </li>
+            <li><a href="index-1.html">Nosotros</a></li>
+            <li><a href="index-2.html">Jugadores</a></li>
+            <li><a href="index-3.html">Noticias</a></li>
+            <li><a href="index-4.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="slider">
+    <div class="camera_wrap">
+        <div data-src="img/picture1.jpg"><div class="camera-caption fadeIn"><p class="title">Preparado <br>para el futuro?</p><p class="description">Registrate!.</p><p class="dsp">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p></div></div>
+        <div data-src="img/picture2.jpg"><div class="camera-caption fadeIn"><p class="title1">Nuevas experiencias!</p><p class="description">Tu futuro<br>es posible!</p><p class="dsp">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.</p></div></div>
+        <div data-src="img/picture3.jpg"><div class="camera-caption fadeIn"><p class="title2">Confía en ti mismo<br></p><p class="description1">Logra tus metas!</p><p class="dsp2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p></div></div>
+    </div>
+</div>
+<div class="stellar-section">
+    <div class="thumb-box1" data-stellar-background-ratio="-0.2">
+        <div class="container">
+            <p class="title">No temas a los riesgos! </p>
+            <p class="description">Apuesta todo a una jugada!</p>
+            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+        </div>
+    </div>
+</div>
+<div class="thumb-box2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp">
+                <h2 class="indent">Sobre nosotros</h2>
+                <h3>En Club-PY, somos un equipo apasionado por el fútbol y la tecnología, comprometidos en facilitar la conexión entre jugadores y clubes mediante una plataforma fácil de usar y accesible para todos. Sabemos lo difícil que puede ser para un jugador encontrar visibilidad en un mundo tan competitivo, y por eso decidimos crear una solución que brinde a cada futbolista la oportunidad de destacar sus habilidades de forma directa y profesional.</h3>
+                <a href="#" class="btn-default btn1">Leer más</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                <h2 class="indent">Nuestra plataforma</h2>
+                <ul class="list1">
+                    <li>
+                        <h3>Nuestra plataforma está diseñada para que los jugadores suban su perfil con información clave, como su nombre, posición, historial de equipos y videos de sus mejores jugadas, permitiendo que los clubes tengan una visión clara y detallada de su talento. A través de nuestro compromiso con la innovación y la simplicidad, buscamos empoderar tanto a los jugadores como a los clubes, brindando una experiencia fluida y efectiva.</h3>
+                      </li>
+                </ul>
+                <a href="#" class="btn-default btn1">Leer más</a>
+            </div>
+        </div>
+    </div>  
+</div>
+<div class="stellar-section">
+    <div class="thumb-box3" data-stellar-background-ratio="-0.2">   
+        <div class="container"> 
+            <h2 class="indent wow fadeIn">Noticias</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp">
+                    <div class="thumb-pad1">
+                        <div class="thumbnail">
+                            <figure><time datetime="2014-01-01">18/01</time><img src="img/page1_pic1.jpg" alt=""></figure>
+                            <div class="caption">
+                                <h3>Noticia random por aqui</h3>
+                                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="thumb-pad1">
+                        <div class="thumbnail">
+                            <figure><time datetime="2014-01-01">18/01</time><img src="img/page1_pic2.jpg" alt=""></figure>
+                            <div class="caption">
+                                <h3>Otra noticia random inventada</h3>
+                                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="thumb-pad1">
+                        <div class="thumbnail">
+                            <figure><time datetime="2014-01-01">18/01</time><img src="img/page1_pic3.jpg" alt=""></figure>
+                            <div class="caption">
+                                <h3>Noticia random sobre mujeres porque somos inclusivos</h3>
+                                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn-default btn2 wow fadeInUp" data-wow-delay="0.6s">Ver todas las noticias</a>
+        </div>
+    </div>
+</div>
+<div class="thumb-box4">
+    <div class="container">
+        <h2 class="indent wow fadeIn">Representantes y ojeadores</h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="list_carousel2 responsive wow fadeInUp">
+                    <ul id="foo2">
+                        <li>
+                            <div class="thumb-pad6">
+                                <div class="thumbnail">
+                                    <figure><img src="img/page1_pic4.png" alt=""></figure>
+                                    <img src="img/quote.png" alt="">
+                                    <div class="caption">
+                                        <a href="#">Don Julio</a>
+                                        <p>Representante de jugadores de talla internacional como **** y ***** con 20 años de experiencia ha llegado inclusive a la premier con sus jugadores.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb-pad6">
+                                <div class="thumbnail">
+                                    <figure><img src="img/page1_pic5.png" alt=""></figure>
+                                    <img src="img/quote.png" alt="">
+                                    <div class="caption">
+                                        <a href="#">Alan Petrovich</a>
+                                        <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb-pad6">
+                                <div class="thumbnail">
+                                    <figure><img src="img/page1_pic6.png" alt=""></figure>
+                                    <img src="img/quote.png" alt="">
+                                    <div class="caption">
+                                        <a href="#">Marilina</a>
+                                        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb-pad6">
+                                <div class="thumbnail">
+                                    <figure><img src="img/page1_pic7.png" alt=""></figure>
+                                    <img src="img/quote.png" alt="">
+                                    <div class="caption">
+                                        <a href="#">El patriarca</a>
+                                        <p>Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb-pad6">
+                                <div class="thumbnail">
+                                    <figure><img src="img/page1_pic6.png" alt=""></figure>
+                                    <img src="img/quote.png" alt="">
+                                    <div class="caption">
+                                        <a href="#">Marilina</a>
+                                        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="list_btn2">
+                        <a id="prev2" class="prev2" href="#"></a>
+                        <a id="next2" class="next2" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="map1">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
+</div>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <ul class="foo_menu">
+                    <li class="active"><a href="index.html">INICIO</a></li>
+                    <li><a href="index-1.html">Nosotros</a></li>
+                    <li><a href="index-2.html">Jugadores</a></li>
+                    <li><a href="index-3.html">Noticias</a></li>
+                    <li><a href="index-4.html">Contacto</a></li>
+                </ul>
+                <p>Grupo Almirón &copy; <em id="copyright-year"></em> <span>|</span> <a href="index-5.html">Politica de privacidad</a></p>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <ul class="follow_icon">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  <!-- {%FOOTER_LINK} -->
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body>
+</html>
